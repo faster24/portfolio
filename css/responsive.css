@@ -1,0 +1,111 @@
+@media ( max-width: 767px ){
+    .contact-section .contact-item ,
+    .portfolio-section .portfolio-item ,
+    .about-section .skills .skill-items ,
+    .about-section .about-info,
+    .about-section .about-img ,
+    .home-section .home-text ,
+    .home-section .home-img {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .home-section .home-text{
+        order: 2;
+        text-align: center;
+        
+    }
+
+    .home-section .home-text h2 {
+        font-size: 30px;
+    }
+
+    .home-section .full-screen {
+        padding: 100px 0;
+    }
+    
+    .home-section .home-img .img-box {
+        margin-bottom: 10px;       
+        
+    }
+
+    .effect-1 {
+        bottom: 38%;
+    }
+
+    .effect-2 {
+        bottom: 40%;
+    }
+    
+
+    .effect-3 {
+        margin-left: -65px;
+    }
+
+    .effect-4 {
+        top: 8%;
+        left: 15%;
+    }
+
+
+    .about-section .about-img .social-links a {
+        font-size: 20px;
+        width: 35px;
+        padding: 5px;
+        margin-bottom: 5px;
+        height: 40px;
+    }
+
+    .about-section .about-img {
+        margin-bottom: 20px;
+    }
+
+    .contact-section .contact-item ,    
+    .timeline-item {
+        margin-bottom: 10px;
+    }
+
+    .contact-section .submit-btn {
+        text-align: center;
+    }
+
+    .experiance .timeline-item:nth-child(odd) ,
+    .education .timeline-item:nth-child(odd) {
+        padding-left: 15px;
+        text-align: left;
+    }
+
+    .experiance .timeline-item:nth-child(even) ,
+    .education .timeline-item:nth-child(even) {
+        text-align: left ;
+        padding-right: 15px;
+    }
+
+    .experiance .timeline-item:nth-child(odd) .icon ,
+    .education .timeline-item:nth-child(odd) .icon{
+        left: -54px;
+    }
+    
+    .experiance .timeline-item:nth-child(even) .icon,
+    .education .timeline-item:nth-child(even) .icon{
+        left: -54px;
+    }
+
+    .experiance .timeline:before ,
+    .education .timeline:before {
+        left: -20px;
+    }
+
+}
+
+@media( max-width: 574px){
+    .home-section .home-text{
+        order: 2;
+        text-align: center;
+        
+    }
+
+    .home-section .home-text h2 {
+        font-size: 30px;
+    }
+}
